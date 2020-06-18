@@ -1,3 +1,52 @@
 .backcolor {
-    background-color: #CE4E4F;
+    background-image: url(0.jpg), url(2.png);
+    width: 100%, 100%;
+    background-position-x: 150px, 0px;
+    background-position-y: 30px, 740px;
+    background-repeat: repeat-x, no-repeat;
+    background-size: 1100px, 1402px;
+
+}
+
+* {
+    margin: 0;
+    padding: 10;
+    color: white;
+}
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    box-shadow: black;
+}
+ul {
+
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 76px;
+}
+ul li a {
+     text-decoration: none;
+     font-size: 35px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: black;
+     padding-right: 30px;
+     padding-left: 30px;
+     
+}
+.scrollers {
+    width: 100%;
+    height: 1873px;
+    overflow-y: scroll;
+    scrollbar-color: gray;
+    scrollbar-width: thin;
+}
+.lib{
+    padding-top:1604px;
+    padding-left: 520px;
+    color: white;
+    font-size: 50px;
 }
