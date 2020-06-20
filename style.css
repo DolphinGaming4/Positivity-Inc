@@ -1,10 +1,9 @@
 .backcolor {
-    background-image: url(0.jpg), url(2.png);
-    width: 100%, 100%;
-    background-position-x: 150px, 0px;
-    background-position-y: 30px, 740px;
-    background-repeat: repeat-x, no-repeat;
-    background-size: 1100px, 1402px;
+    background-image: url(0.png);
+ background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
 
 }
 
@@ -19,14 +18,18 @@ nav {
     background-color: white;
     box-shadow: black;
 }
-ul {
 
-}
-ul li {
+.bruh {
     list-style: none;
     display: inline-block;
-    float: left;
+    
     line-height: 76px;
+    text-decoration: none;
+     font-size: 35px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: black;
+     padding-right: 30px;
+     padding-left: 30px;
 }
 ul li a {
      text-decoration: none;
@@ -39,7 +42,7 @@ ul li a {
 }
 .scrollers {
     width: 100%;
-    height: 1873px;
+    height: 2105px;
     overflow-y: scroll;
     scrollbar-color: gray;
     scrollbar-width: thin;
@@ -49,4 +52,17 @@ ul li a {
     padding-left: 520px;
     color: white;
     font-size: 50px;
+    text-decoration: none;
+}
+
+html{
+    width: 400px;
+    margin: 0px;
+}
+@media screen and (max-width:499px){
+ .backcolor{
+     background-position-y: 1.51%;
+     
+     
+ }
 }
