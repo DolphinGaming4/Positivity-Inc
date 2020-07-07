@@ -6,15 +6,39 @@
     background-attachment: local;
 
 }
+.cmdcolor {
+    background-image: url(cmd1.png);
+ background-position-x: center;
+ background-position-y: 60px;
+    background-repeat: no-repeat;
+ background-size: 1530px;
+    background-attachment: local;
 
+}
+.cmdserver {
+    background-image: url(cmdserver.png);
+ background-position-x: center;
+ background-position-y: 60px;
+    background-repeat: no-repeat;
+ background-size: 1530px;
+    background-attachment: local;
+
+}
+.botbackcolor {
+    background-image: url(poscolor.png);
+background-position-y: 30px;
+       background-attachment: local;
+       
+
+}
 * {
     margin: 0;
     padding: 10;
     color: white;
 }
-nav {
+.botnav{
     width: 100%;
-    height: 40px;
+    height: 80px;
     background-color: white;
    
 }
@@ -47,19 +71,98 @@ ul li a {
     scrollbar-color: gray;
     scrollbar-width: thin;
 }
+.cmdscrollers {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-color: gray;
+    scrollbar-width: thin;
+}
+.botscrollers {
+    width: 100%;
+    height: 780px;
+    overflow-y: scroll;
+    scrollbar-color: gray;
+    scrollbar-width: thin;
+}
 .lib{
     position: initial;
     text-decoration: underline none;
     padding-top:1824px;
-    padding-left: 570px;
+    
     color: white;
     font-size: 50px;
   
 }
-
+.JDB{
+    padding-left: 37%;
+}
 html{
     width: 400px;
     margin: 0px;
+}
+.botpages{
+    width: 100%;
+    display: inline-block;
+    
+}
+.shrek{
+  width: 380px;
+  height: 340px;
+  padding-left: 10%;
+  padding-top: 175px;
+  
+}
+.newsimg{
+    width:380px;
+    height:340px;
+    padding-left: 10px;
+}
+.cmdlink{
+    padding-left: 16px;
+    padding-top: 80px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.servcmd{
+   
+    font-size: 33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cmdfun{
+    background-image: url(cmdfun.png);
+ background-position-x: center;
+ background-position-y: 60px;
+    background-repeat: no-repeat;
+ background-size: 1530px;
+    background-attachment: local;
+}
+.yeman{
+
+    padding-top: 30px;
+    padding-left: 35px;
+}
+.yeman2{
+    padding-top:10px;
+    padding-left:10px;
+}
+.yeman3{
+    padding-top: 30px;
+    
+}
+.yeman4{
+    padding-top: 10px;
+    padding-left: 35px;
+}
+.fiximg{
+    width: 10px;
+    height: 10px;
+}
+.invitecmd{
+    text-decoration: underline;
+    padding-top: 200px;
+    padding-left: 533px;
+    font-size: 50px;
 }
 @media screen and (max-width:399px){
  .backcolor{
