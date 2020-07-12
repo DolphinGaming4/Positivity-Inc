@@ -31,6 +31,15 @@ background-position-y: 30px;
        
 
 }
+.projectsbackcolor {
+    background-image: url(other.png);
+background-position-y: 60px;
+background-position-x: center;
+background-size: 20;
+       background-attachment: local;
+       
+
+}
 * {
     margin: 0;
     padding: 10;
@@ -106,27 +115,39 @@ html{
     display: inline-block;
     
 }
+.projectpages{
+    width: 100%;
+    display: inline-block;
+    
+}
 .shrek{
   width: 380px;
   height: 340px;
-  padding-left: 10%;
+  padding-left: 7%;
   padding-top: 175px;
   
 }
+.count{
+    width: 200px;
+    height: 200px;
+    padding-left: 100px;
+    padding-top: 120px;
+    
+  }
 .newsimg{
     width:380px;
     height:340px;
-    padding-left: 10px;
+    padding-left: 1%;
 }
 .cmdlink{
     padding-left: 16px;
     padding-top: 80px;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .servcmd{
    
-    font-size: 33px;
+    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .cmdfun{
@@ -135,6 +156,14 @@ html{
  background-position-y: 60px;
     background-repeat: no-repeat;
  background-size: 1530px;
+    background-attachment: local;
+}
+.bugbackcolor{
+    background-image: url(bugreport.png);
+ background-position-x: center;
+ background-position-y: 65px;
+    background-repeat: no-repeat;
+ background-size: 1420px;
     background-attachment: local;
 }
 .yeman{
@@ -161,7 +190,7 @@ html{
 .invitecmd{
     text-decoration: underline;
     padding-top: 200px;
-    padding-left: 533px;
+    padding-left: 490px;
     font-size: 50px;
 }
 @media screen and (max-width:399px){
